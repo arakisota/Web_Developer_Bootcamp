@@ -1,11 +1,71 @@
-* {
+/* * {
     background-color: pink;
+} */
+body {
+    background-color: #f1faee;
 }
 
 button {
     font-size: 30px;
+    background-color: #e9edc9;
 }
 
 h1, h2 {
-    color: darkgoldenrod;
+    color: #14213d;
+}
+
+#signup {
+    color: #1d3557;
+    background-color:#a8dadc ;
+}
+
+span {
+    color: #e63946;
+}
+
+.tag {
+    background-color: #ffafcc;
+    color: #03045e;
+}
+
+.post a {
+    color: #bc6c25;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer a {
+    color: #14213d;
+}
+
+input[type="password"]{
+    color: green;
+}
+
+.post button:hover {
+    background-color: #e63946;
+    color: #a8dadc;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #a8dadc;
+}
+
+h2::first-letter {
+    font-size: 50px;
+}
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: violet;
+}
+
+button {
+    background-color: magenta !important;
 }
